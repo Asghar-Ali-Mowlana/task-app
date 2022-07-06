@@ -1,0 +1,21 @@
+.main {
+    max-height: 50vh;
+    padding-top: 3%;
+}
+
+.mainHeading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.taskList {
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.taskItem{
+    padding-bottom: 1%;
+}

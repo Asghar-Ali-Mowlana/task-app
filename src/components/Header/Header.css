@@ -1,0 +1,51 @@
+.header {
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header>div {
+    margin: 10px;
+}
+
+.companyLogo {
+    width: 200px;
+}
+
+.searchBar {
+    background-color: #f6f7fa;
+    height: 50px;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    flex: 0.35;
+}
+
+.searchBar>div {
+    margin: 10px;
+}
+
+.searchInput {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.searchInputContainer {
+    flex: auto;
+}
+
+.searchIconContainer {
+    background-color: #ec5f5f;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
